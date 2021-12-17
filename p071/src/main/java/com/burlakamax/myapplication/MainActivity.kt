@@ -32,64 +32,64 @@ class MainActivity : AppCompatActivity() {
 
         radioGroup.setOnCheckedChangeListener { radioGroup, i ->
             when(i){
-                R.id.radioButton2 ->  textTitle.setText("rb1")
-                R.id.radioButton4 ->  textTitle.setText("rb2")
+                R.id.radioButton2 ->  textTitle.text = "rb1"
+                R.id.radioButton4 ->  textTitle.text = "rb2"
             }
         }
 
         return when (item.itemId) {
 
             R.id.electric_guitar -> {
-                textTitle.setText(getString(R.string.electric_guitar))
-                text.setText(getString(R.string.electric_guitar1))
+                textTitle.text = getString(R.string.electric_guitar)
+                text.text = getString(R.string.electric_guitar1)
                 img.setImageResource(R.drawable.electric_guitar)
                 true
             }
             R.id.acoustic_guitar -> {
-                textTitle.setText(getString(R.string.acoustic_guitar))
-                text.setText(getString(R.string.acoustic_guitar1))
+                textTitle.text = getString(R.string.acoustic_guitar)
+                text.text = getString(R.string.acoustic_guitar1)
                 img.setImageResource(R.drawable.acoustic_guitar)
                 true
             }
             R.id.bass_guitar -> {
-                textTitle.setText(getString(R.string.bass_guitar))
-                text.setText(getString(R.string.bass_guitar1))
+                textTitle.text = getString(R.string.bass_guitar)
+                text.text = getString(R.string.bass_guitar1)
                 img.setImageResource(R.drawable.bass_guitar)
                 true
             }
             R.id.small_drum -> {
-                textTitle.setText(getString(R.string.small_drum))
-                text.setText(getString(R.string.small_drum1))
+                textTitle.text = getString(R.string.small_drum)
+                text.text = getString(R.string.small_drum1)
                 img.setImageResource(R.drawable.small_drum)
                 true
             }
             R.id.big_drum -> {
-                textTitle.setText(getString(R.string.big_drum))
-                text.setText(getString(R.string.big_drum1))
+                textTitle.text = getString(R.string.big_drum)
+                text.text = getString(R.string.big_drum1)
                 img.setImageResource(R.drawable.big_drum)
                 true
             }
             R.id.system_drum -> {
-                textTitle.setText(getString(R.string.system_drum))
-                text.setText(getString(R.string.system_drum1))
+                textTitle.text = getString(R.string.system_drum)
+                text.text = getString(R.string.system_drum1)
                 img.setImageResource(R.drawable.system_drum)
                 true
             }
             R.id.acoustic_piano -> {
-                textTitle.setText(getString(R.string.acoustic_piano))
-                text.setText(getString(R.string.acoustic_piano1))
+                textTitle.text = (getString(R.string.acoustic_piano))
+                text.text = (getString(R.string.acoustic_piano1))
                 img.setImageResource(R.drawable.acoustic_piano)
                 true
             }
             R.id.accordion -> {
-                textTitle.setText(getString(R.string.accordion))
-                text.setText(getString(R.string.accordion1))
+                textTitle.text = (getString(R.string.accordion))
+                text.text = (getString(R.string.accordion1))
                 img.setImageResource(R.drawable.accordion)
                 true
             }
             R.id.synthesizers -> {
-                textTitle.setText(getString(R.string.synthesizers))
-                text.setText(getString(R.string.synthesizers1))
+                textTitle.text = (getString(R.string.synthesizers))
+                text.text = (getString(R.string.synthesizers1))
                 img.setImageResource(R.drawable.synthesizers)
                 true
             }
