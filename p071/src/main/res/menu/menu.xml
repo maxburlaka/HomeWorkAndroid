@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/guitars"
+        android:title="@string/guitar">
+        <menu>
+            <item android:id="@+id/electric_guitar"
+                android:title="@string/electric_guitar"/>
+
+            <item android:id="@+id/acoustic_guitar"
+                android:title="@string/acoustic_guitar"/>
+
+            <item android:id="@+id/bass_guitar"
+                android:title="@string/bass_guitar"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/drum"
+        android:title="@string/drums">
+
+        <menu>
+            <item android:id="@+id/small_drum"
+                android:title="@string/small_drum"/>
+
+            <item android:id="@+id/big_drum"
+                android:title="@string/big_drum"/>
+
+            <item android:id="@+id/system_drum"
+                android:title="@string/system_drum"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/keyboard_instruments"
+        android:title="@string/keyboard_instruments">
+        <menu>
+            <item android:id="@+id/accordion"
+                android:title="@string/accordion"/>
+
+            <item android:id="@+id/acoustic_piano"
+                android:title="@string/acoustic_piano"/>
+
+            <item android:id="@+id/synthesizers"
+                android:title="@string/synthesizers"/>
+        </menu>
+    </item>
+</menu>
