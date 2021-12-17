@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">p062</string>
+    <string name="todo">TODO</string>
+    <string name="beauty_and_the_beast">Beauty and the Beast</string>
+    <string name="march_2017_pg_129_minutes">March 2017 PG 129 minutes</string>
+    <string name="rent_from_r_29_99">Rent from r.29.99</string>
+    <string name="buy_from_r129_99">buy from R129.99</string>
+    <string name="_4_5">4.5</string>
+    <string name="_242_rating">242 rating</string>
+    <string name="family">Family</string>
+    <string name="_71">71%</string>
+    <string name="similar">Similar</string>
+    <string name="the_story_and_characters_you_know_and_love_come_to_spectacular_life_in_the_live_action_adaptionof_disney_s_animated_classic_beauty_and_the_beast">The story and characters you know and love come to spectacular life in the live-action adaptionof Disney\'s animated classic Beauty and the Beast.</string>
+    <string name="_650_555_1234">(650) 555-1234</string>
+    <string name="_650_555_4321">(650) 555-4321</string>
+    <string name="google_service">Google voice</string>
+    <string name="mobile">Mobile</string>
+    <string name="studio_android_com">studio@android.com</string>
+    <string name="work">Work</string>
+</resources>
