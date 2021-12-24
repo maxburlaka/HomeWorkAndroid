@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "HomeWorkAndroid"
 include ':app'
+include ':app:p061'
