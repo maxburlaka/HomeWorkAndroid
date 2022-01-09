@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">p091</string>
+    <string name="acoustic_piano">Acoustic piano</string>
+    <string name="accordion">Accordion</string>
+    <string name="synthesizers">Synthesizers</string>
+    <string name="small_drum">Small drum</string>
+    <string name="big_drum">Big drum</string>
+    <string name="system_drum">System drum</string>
+    <string name="bass_guitar">Bass guitar</string>
+    <string name="acoustic_guitar">Acoustic guitar</string>
+    <string name="electric_guitar">Electric guitar</string>
+    <string name="next_instrument">Next instrument</string>
+    <string name="textview">TextView</string>
+    <string name="todo">TODO</string>
+</resources>
